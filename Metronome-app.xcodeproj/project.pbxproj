@@ -11,14 +11,16 @@
 		A6A129C728852DB2009C7F5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A129C628852DB2009C7F5F /* ContentView.swift */; };
 		A6A129C928852DB4009C7F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A129C828852DB4009C7F5F /* Assets.xcassets */; };
 		A6A129CC28852DB4009C7F5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A129CB28852DB4009C7F5F /* Preview Assets.xcassets */; };
+		A6B039EB2886DBE3009718AA /* ClickPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B039EA2886DBE3009718AA /* ClickPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A6A129C128852DB2009C7F5F /* Metronome-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metronome-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A129C428852DB2009C7F5F /* Metronome_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metronome_appApp.swift; sourceTree = "<group>"; };
-		A6A129C628852DB2009C7F5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6A129C628852DB2009C7F5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		A6A129C828852DB4009C7F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6A129CB28852DB4009C7F5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6B039EA2886DBE3009718AA /* ClickPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A6A129C428852DB2009C7F5F /* Metronome_appApp.swift */,
 				A6A129C628852DB2009C7F5F /* ContentView.swift */,
+				A6B039EA2886DBE3009718AA /* ClickPlayer.swift */,
 				A6A129C828852DB4009C7F5F /* Assets.xcassets */,
 				A6A129CA28852DB4009C7F5F /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6A129C728852DB2009C7F5F /* ContentView.swift in Sources */,
+				A6B039EB2886DBE3009718AA /* ClickPlayer.swift in Sources */,
 				A6A129C528852DB2009C7F5F /* Metronome_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
